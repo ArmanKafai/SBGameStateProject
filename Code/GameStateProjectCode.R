@@ -131,7 +131,7 @@ PremTeamPassFinalGS3 <- PremTeamPassFinalTotalGS2 %>%
 
 #Pull in the logos
 
-Logos <- read.csv ("C:/Users/hound/OneDrive/Desktop/SBGameStateProject/Logos/Prem Logos.csv")
+Logos <- read.csv ("Prem Logos.csv")
 
 PremTeamPassFinalTotalGS2<- merge (PremTeamPassFinalTotalGS2, Logos, by.x = 'team.name', by.y = 'Team')
 
